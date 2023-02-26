@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Flip Card</title>
+    </head>
+    <body>
+        <h2>POKEMON FLIP CARD POKEAPI</h2>
+        <div class="calidad">
+            <input type="radio" name="calidad" value="Baja" id="Baja" onclick="cambiaCalidad()"  checked> <label for="Baja">Calidad Baja</label> 
+            <br>
+            <input type="radio" name="calidad" value="Media" id="Media" onclick="cambiaCalidad()"> <label for="Media">Calidad Media</label> 
+            <br>
+            <input type="radio" name="calidad" value="Alta" id="Alta" onclick="cambiaCalidad()"> <label for="Alta">Calidad Alta</label> 
+        </div>
+        <main id="contenedor">
+        </main>
+        <script src="./js/main.js"></script>
+        <footer>
+            <p>Informacion Obtenida desde Pokeapi.co</p> 
+            <p>@OrtizMauriam feb-2023 </p>
+        </footer>
+    </body>
+</html>
